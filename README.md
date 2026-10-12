@@ -1,16 +1,66 @@
-# React + Vite
+# Smart Campus Bus Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A React-based frontend for managing campus transportation.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Bus management: Add, view, update, and delete buses.
+- Route management: Manage routes, destinations, and stops.
+- Driver management: Maintain driver details and license information.
+- Student management: Manage student records.
+- Schedule management: Manage bus departure and arrival times.
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- JavaScript
+- CSS
+- Vite
+- Spring Boot REST API
+- MySQL
 
-## Expanding the Oxlint configuration
+## Prerequisites
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- Node.js and npm
+- Java 17
+- MySQL Server
+
+## Run the Frontend Locally
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Sanjanabandari/smart-campus-bus-frontend.git
+```
+
+Enter the project folder:
+
+```bash
+cd smart-campus-bus-frontend
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open the local URL displayed in the terminal, usually `http://localhost:5173/`.
+
+## Backend Repository
+
+https://github.com/Sanjanabandari/smart-campus-bus-backend
+
+## Frontend Repository
+
+https://github.com/Sanjanabandari/smart-campus-bus-frontend
+
+## Project Status
+
+The application has been tested locally with the Spring Boot backend and MySQL database. Online deployment is pending.
